@@ -8,46 +8,46 @@ export const defaultTheme = {
   colors: {
     ...DefaultTheme.colors,
 
-    primary: "rgb(192, 1, 0)",
+    primary: "rgb(0, 110, 0)",
     onPrimary: "rgb(255, 255, 255)",
-    primaryContainer: "rgb(255, 218, 212)",
-    onPrimaryContainer: "rgb(65, 0, 0)",
-    secondary: "rgb(119, 86, 81)",
+    primaryContainer: "rgb(141, 251, 119)",
+    onPrimaryContainer: "rgb(0, 34, 0)",
+    secondary: "rgb(84, 99, 77)",
     onSecondary: "rgb(255, 255, 255)",
-    secondaryContainer: "rgb(255, 218, 212)",
-    onSecondaryContainer: "rgb(44, 21, 18)",
-    tertiary: "rgb(112, 92, 46)",
+    secondaryContainer: "rgb(215, 232, 205)",
+    onSecondaryContainer: "rgb(18, 31, 14)",
+    tertiary: "rgb(56, 101, 104)",
     onTertiary: "rgb(255, 255, 255)",
-    tertiaryContainer: "rgb(251, 223, 166)",
-    onTertiaryContainer: "rgb(37, 26, 0)",
+    tertiaryContainer: "rgb(188, 235, 238)",
+    onTertiaryContainer: "rgb(0, 32, 34)",
     error: "rgb(186, 26, 26)",
     onError: "rgb(255, 255, 255)",
     errorContainer: "rgb(255, 218, 214)",
     onErrorContainer: "rgb(65, 0, 2)",
-    background: "rgb(255, 251, 255)",
-    onBackground: "rgb(32, 26, 25)",
-    surface: "rgb(255, 251, 255)",
-    onSurface: "rgb(32, 26, 25)",
-    surfaceVariant: "rgb(245, 221, 218)",
-    onSurfaceVariant: "rgb(83, 67, 65)",
-    outline: "rgb(133, 115, 112)",
-    outlineVariant: "rgb(216, 194, 190)",
+    background: "rgb(252, 253, 246)",
+    onBackground: "rgb(26, 28, 24)",
+    surface: "rgb(252, 253, 246)",
+    onSurface: "rgb(26, 28, 24)",
+    surfaceVariant: "rgb(223, 228, 215)",
+    onSurfaceVariant: "rgb(67, 72, 63)",
+    outline: "rgb(115, 121, 110)",
+    outlineVariant: "rgb(195, 200, 188)",
     shadow: "rgb(0, 0, 0)",
     scrim: "rgb(0, 0, 0)",
-    inverseSurface: "rgb(54, 47, 46)",
-    inverseOnSurface: "rgb(251, 238, 236)",
-    inversePrimary: "rgb(255, 180, 168)",
+    inverseSurface: "rgb(47, 49, 45)",
+    inverseOnSurface: "rgb(241, 241, 235)",
+    inversePrimary: "rgb(114, 222, 94)",
     elevation: {
       level0: "transparent",
-      level1: "rgb(252, 239, 242)",
-      level2: "rgb(250, 231, 235)",
-      level3: "rgb(248, 224, 227)",
-      level4: "rgb(247, 221, 224)",
-      level5: "rgb(246, 216, 219)",
+      level1: "rgb(239, 246, 234)",
+      level2: "rgb(232, 242, 226)",
+      level3: "rgb(224, 237, 219)",
+      level4: "rgb(222, 236, 217)",
+      level5: "rgb(217, 233, 212)",
     },
-    surfaceDisabled: "rgba(32, 26, 25, 0.12)",
-    onSurfaceDisabled: "rgba(32, 26, 25, 0.38)",
-    backdrop: "rgba(59, 45, 43, 0.4)",
+    surfaceDisabled: "rgba(26, 28, 24, 0.12)",
+    onSurfaceDisabled: "rgba(26, 28, 24, 0.38)",
+    backdrop: "rgba(44, 50, 41, 0.4)",
   },
 };
 
@@ -56,98 +56,45 @@ export const darkTheme = {
   colors: {
     ...DarkTheme.colors,
 
-    primary: "rgb(255, 180, 168)",
-    onPrimary: "rgb(105, 1, 0)",
-    primaryContainer: "rgb(147, 1, 0)",
-    onPrimaryContainer: "rgb(255, 218, 212)",
-    secondary: "rgb(231, 189, 182)",
-    onSecondary: "rgb(68, 41, 37)",
-    secondaryContainer: "rgb(93, 63, 59)",
-    onSecondaryContainer: "rgb(255, 218, 212)",
-    tertiary: "rgb(222, 196, 140)",
-    onTertiary: "rgb(62, 46, 4)",
-    tertiaryContainer: "rgb(86, 68, 25)",
-    onTertiaryContainer: "rgb(251, 223, 166)",
+    primary: "rgb(114, 222, 94)",
+    onPrimary: "rgb(0, 58, 0)",
+    primaryContainer: "rgb(0, 83, 0)",
+    onPrimaryContainer: "rgb(141, 251, 119)",
+    secondary: "rgb(187, 203, 178)",
+    onSecondary: "rgb(38, 52, 34)",
+    secondaryContainer: "rgb(60, 75, 55)",
+    onSecondaryContainer: "rgb(215, 232, 205)",
+    tertiary: "rgb(160, 207, 210)",
+    onTertiary: "rgb(0, 55, 57)",
+    tertiaryContainer: "rgb(30, 77, 80)",
+    onTertiaryContainer: "rgb(188, 235, 238)",
     error: "rgb(255, 180, 171)",
     onError: "rgb(105, 0, 5)",
     errorContainer: "rgb(147, 0, 10)",
     onErrorContainer: "rgb(255, 180, 171)",
-    background: "rgb(32, 26, 25)",
-    onBackground: "rgb(237, 224, 221)",
-    surface: "rgb(32, 26, 25)",
-    onSurface: "rgb(237, 224, 221)",
-    surfaceVariant: "rgb(83, 67, 65)",
-    onSurfaceVariant: "rgb(216, 194, 190)",
-    outline: "rgb(160, 140, 137)",
-    outlineVariant: "rgb(83, 67, 65)",
+    background: "rgb(26, 28, 24)",
+    onBackground: "rgb(226, 227, 220)",
+    surface: "rgb(26, 28, 24)",
+    onSurface: "rgb(226, 227, 220)",
+    surfaceVariant: "rgb(67, 72, 63)",
+    onSurfaceVariant: "rgb(195, 200, 188)",
+    outline: "rgb(141, 147, 135)",
+    outlineVariant: "rgb(67, 72, 63)",
     shadow: "rgb(0, 0, 0)",
     scrim: "rgb(0, 0, 0)",
-    inverseSurface: "rgb(237, 224, 221)",
-    inverseOnSurface: "rgb(54, 47, 46)",
-    inversePrimary: "rgb(192, 1, 0)",
+    inverseSurface: "rgb(226, 227, 220)",
+    inverseOnSurface: "rgb(47, 49, 45)",
+    inversePrimary: "rgb(0, 110, 0)",
     elevation: {
       level0: "transparent",
-      level1: "rgb(43, 34, 32)",
-      level2: "rgb(50, 38, 36)",
-      level3: "rgb(57, 43, 41)",
-      level4: "rgb(59, 45, 42)",
-      level5: "rgb(63, 48, 45)",
+      level1: "rgb(30, 38, 28)",
+      level2: "rgb(33, 44, 30)",
+      level3: "rgb(36, 49, 32)",
+      level4: "rgb(37, 51, 32)",
+      level5: "rgb(38, 55, 34)",
     },
-    surfaceDisabled: "rgba(237, 224, 221, 0.12)",
-    onSurfaceDisabled: "rgba(237, 224, 221, 0.38)",
-    backdrop: "rgba(59, 45, 43, 0.4)",
+    surfaceDisabled: "rgba(226, 227, 220, 0.12)",
+    onSurfaceDisabled: "rgba(226, 227, 220, 0.38)",
+    backdrop: "rgba(44, 50, 41, 0.4)",
   },
 };
-
-//
-// Path: src/navigation/index.jsx
-// Compare this snippet from src/screens/HomeScreen.jsx:
-// import { Text, View } from "react-native";
-//
-// export function HomeScreen() {
-//   return (
-//     <View>
-//       <Text>Hi Fking Lorena!</Text>
-//     </View>
-//   );
-// }
-//
-// Compare this snippet from src/navigation/index.jsx:
-// import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-// import { NavigationContainer } from "@react-navigation/native";
-// import { createNativeStackNavigator } from "@react-navigation/native-stack";
-// import { useColorScheme } from "react-native";
-// import { MD3LightTheme, MD3DarkTheme } from "react-native-paper";
-// import { HomeScreen } from "../screens/HomeScreen";
-//
-// const Stack = createNativeStackNavigator();
-// const MaterialBottomTab = createMaterialBottomTabNavigator();
-//
-// export const RootNavigator = () => {
-//   const colorScheme = useColorScheme();
-//   const theme = colorScheme === "dark" ? MD3DarkTheme : MD3LightTheme;
-//   // use dark theme is system is in dark mode
-//   return (
-//     <NavigationContainer theme={theme}>
-//       <StackNavigation />
-//     </NavigationContainer>
-//   );
-// };
-//
-// const StackNavigation = () => {
-//   return (
-//     <Stack.Navigator>
-//       <Stack.Screen name="Home" component={MaterialBottomTabNavigation} />
-//       <Stack.Screen name="Details" component={HomeScreen} />
-//     </Stack.Navigator>
-//   );
-// };
-//
-// const MaterialBottomTabNavigation = () => {
-//   const colorScheme = useColorScheme();
-//   const theme = colorScheme === "dark" ? MD3DarkTheme : MD3LightTheme;
-//   return (
-//     <MaterialBottomTab.Navigator theme={theme}>
-//       <MaterialBottomTab.Screen
-//         name="Home"
-//         component

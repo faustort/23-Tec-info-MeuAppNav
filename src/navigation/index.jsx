@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useColorScheme } from "react-native";
 import { HomeScreen } from "../screens/HomeScreen";
 import { SplashScreen } from "../screens/SplashScreen";
-import { darkTheme, defaultTheme, theme } from "../utils/theme";
+import { darkTheme, defaultTheme } from "../utils/theme";
 
 const Stack = createNativeStackNavigator();
 const MaterialBottomTab = createMaterialBottomTabNavigator();
@@ -48,7 +48,7 @@ const MaterialBottomTabNavigation = () => {
         name="Detalhes"
         component={HomeScreen}
         options={{
-          tabBarIcon: "pin",
+          tabBarIcon: "human-pregnant",
         }}
       />
     </MaterialBottomTab.Navigator>
