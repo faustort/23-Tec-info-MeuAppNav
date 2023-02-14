@@ -1,20 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { RootNavigator } from "./src/navigation";
+import { Provider as PaperProvider } from "react-native-paper";
+import { useColorScheme } from "react-native";
+import { darkTheme, defaultTheme } from "./src/utils/theme";
 
 export default function App() {
+  const theme = useColorScheme() ? darkTheme : defaultTheme;
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <PaperProvider theme={theme}>
+      <RootNavigator />
+    </PaperProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
